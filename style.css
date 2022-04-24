@@ -1,3 +1,5 @@
+import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Federant&family=Ruda&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
@@ -42,6 +44,7 @@ background: #D3FFE9;
  
 }
 .Logo{
+  font-family: 'El Messiri', sans-serif;
   font-size:4.6rem;
   padding: 1rem;
   margin: auto;
@@ -53,6 +56,7 @@ background: #D3FFE9;
   margin-top: 8rem;
 }
 .questions{
+  font-family: 'Ruda', sans-serif;
   display: flex;
   flex-direction: column;
   font-size: 3rem;
@@ -131,7 +135,7 @@ background-color: #51FFD5;
   color: #B6C6BC;
   background: transparent;
   margin: auto;
-  font-size: 4rem;
+  font-size: 5rem;
   padding: 2rem; 
   display: none;
   flex-direction: column;
@@ -139,9 +143,9 @@ background-color: #51FFD5;
   align-items: center;
 }
 #rightNum{
-  color: #00F35A;
-  font-size: 6rem;
+  font-family: 'Ruda', sans-serif;
+  
 }
 #wrongNum{
-  color: #FF8E8E;
+  font-family: 'Ruda', sans-serif;
 }
