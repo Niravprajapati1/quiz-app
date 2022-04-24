@@ -110,7 +110,7 @@ verifyanswer = () => {
   qNum++;
     wrongNum++;
   }
-  if (qNum === 1) {
+  if (qNum === 10) {
     document.createElement('div');
     document.querySelector('#rightNum').innerHTML = ` Your points :  ${rightNum}`;
     document.createElement('div');
