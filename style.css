@@ -1,0 +1,155 @@
+<<<<<<< HEAD
+=======
+import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Federant&family=Ruda&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 5px;
+  scroll-behavior: smooth;
+/* background: rgba(170,170,170,0.2); */
+background: #D3FFE9;
+  
+}
+
+:root {
+  /*--Firstcolor: linear-gradient(#522175, #000);*/
+  --Firstcolor: black;
+  --secondColor: linear-gradient(#000, #522175);
+  --Pure: #FFFFFF;
+  --primary: white;
+  --secondary: #F8F0FF;
+  --ternary: #898989;
+  --light: #eef8ff;
+  --second: #522175;
+}
+
+#mainScreen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem;
+  padding: 5rem;
+  background: #9DFFCD;
+  border: 0.1rem solid #89FFEC;
+
+  border-radius: 2rem;
+  box-shadow: -0.3rem -0.3rem 0.8rem 0.5rem rgba(176, 255, 246,0.4),0.3rem 0.3rem 0.8rem 0.5rem rgba(176, 255, 246,0.4);
+ 
+}
+#app{
+ 
+}
+.Logo{
+  font-family: 'El Messiri', sans-serif;
+  font-size:4.6rem;
+  padding: 1rem;
+  margin: auto;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+.questions{
+  font-family: 'Ruda', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  padding: 1rem;
+  
+}
+.answer{
+  list-style: none;
+  
+  font-size: 2.1rem;
+  display: flex;
+  
+  flex-direction: column;
+  padding: 2rem;
+  margin-left: 0;
+  width: 30rem;
+  border: 0.1rem solid #FFD6D6;
+  border-radius: 1rem;
+  background: #FFF9D6;
+  margin-top: 1rem;
+}
+li.active{
+  color: #C74396;
+  background: #CBC3FD;
+  border-color: #CDFFD8;
+}
+.container .answer input{
+  margin: 1rem;
+}
+#check{
+  display: none;
+  background: #B7FFF3;
+  border: 0.05rem solid #DCFFF9;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.answers{
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.3rem;
+  
+  padding: 0rem;
+  
+}
+
+
+
+
+
+
+
+.btn{
+  
+  background: #FAFCCE;
+  color: #4B99AD;
+  padding: 2rem;
+  border: 0.2rem solid #DCDA80;
+  border-radius: 1rem;
+  font-weight: 600;
+  margin: auto;
+  
+}
+.btn:hover{
+background-color: #51FFD5;
+}
+
+#score{
+  
+  background: transparent;
+  margin: auto;
+  font-size: 5rem;
+  padding: 2rem; 
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Federant', cursive;
+}
+
+  
+  
+
+
+
+
+>>>>>>> refs/remotes/origin/master
