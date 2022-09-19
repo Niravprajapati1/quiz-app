@@ -5,4 +5,4 @@ you want to practice and understand how we can use api in our project you can cr
 
 if it is useful for you just give a start to repo
 
-[Quiz-app](https://pro-quiz-app.herokuapp.com/)
+[Quiz-app](https://niravprajapati1.github.io/quiz-app/)
